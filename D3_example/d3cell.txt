@@ -1,0 +1,49 @@
+from IPython.core.display import display, HTML
+from string import Template
+import json
+
+css_text = '''
+'''
+js_text_template = Template('''
+       console.log("in javascript");
+       require.config({paths: {d3: "http://localhost:8888/notebooks/lib/d3/d3.min"}});
+       require(["d3"], function(d3) {
+           console.log("in require");
+            console.log(d3.version)
+            console.log(d3)
+            var bogoSVG = d3.select("#$bogoanimation") 
+          .append("svg")
+          .attr("width", 300)
+          .attr("height", 300);    
+
+      var data = $python_data ;
+       bogoSVG.append("circle")
+          .style("stroke", "gray")
+          .style("fill", "cyan")
+          .attr("r", data[0]['r'])
+          .attr("cx", data[0]['cx'])
+          .attr("cy", data[0]['cy'])
+          .transition()
+             .delay(100)
+             .duration(20000)  
+             .attr("r", 10)
+             .attr("cx", data[0]['cx'])
+             .style("fill", "blue"); 
+            
+       });
+       
+''')
+
+
+html_template = Template('''
+<style> $css_text </style>
+<div id="animation"></div>
+<script> $js_text </script>
+''')
+
+
+js_text = js_text_template.substitute({'python_data': json.dumps([{'r': 130, 'cx': 150, 'cy': 150}]),
+                                       'bogoanimation': 'animation'})
+
+
+HTML(html_template.substitute({'css_text': css_text, 'js_text': js_text}))
