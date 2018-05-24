@@ -1,0 +1,44 @@
+*********************************************************************
+Here I will write about lessons learned from tutorials and from the comments on the tutorials:
+*********************************************************************
+
+- heatmap for correlation matrix
+- boxplots for categorical variable
+- ways of dealing with categorical variables: usually  you will want dummy variables, however in the tutorial he encoded the variables to be the index of the sample
+when sorting the categories according to the mean saleprice.
+- ways of dealing with  NANs: either understanding if any are dominant and then  getting rid of the feature or perhapsif there are not many - get rid of the sample.
+before getting rid of nans it is important to understand how strongly the feature is correlated to the target feature.
+- log transformation for sqewed normal distribution
+- NAN does not allways mean value missing, need to read the data description and accordingly deal with NANs
+- cross validation
+
+For many regression problems there are some assumptions to be made on the residuals -
+- Normality
+- Homoscedasticity
+- no or little colinearity
+- 
+
+**************************
+Questions to be answered:
+**************************
+Does XGBOOST / decision trees make any assumptions on the data?
+
+In general - will we want to get rid of NANs?
+
+how do we get the propper result back after doing log transform
+
+how do we apply the changes on kaggles test data?
+
+********
+the plan
+********
+split categorical and numerical - Done
+understand if there are any categorical which should be numerical and visa versa - TODO
+box plot categorical - Done
+change NANs to their true meanings
+log transform the residuals - how to do this, do i need to?
+make sure has homoscedasticity
+heat map to check which variables are most correlated
+deal with NANs that are left
+remove outliars
+create dummy variables
