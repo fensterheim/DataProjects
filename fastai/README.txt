@@ -1,1 +1,1 @@
-This contains content related to fastai courses
+This folder contains content related to fastai courses
