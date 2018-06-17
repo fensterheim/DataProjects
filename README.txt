@@ -18,3 +18,7 @@ Titanic:
     I brought domain knowledge of the Titanic blueprints to treat room numbers as 3D coordinates on the ship - the numbers
     were well ordered and had a prefix of the deck, this allowed me to get further features such as which the side of the ship
     in which the caben was located.
+
+fastai:
+  documentation and code related to fastai courses
+
