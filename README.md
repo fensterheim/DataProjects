@@ -1,9 +1,9 @@
 # A briefe explanation of the contents of each folder:
 
 ## D3_example:<br>
-  D3 is a javascript based library for data visualization.<br>
-  This is a powerful tool and it currently does not work too well with Jupyter Notebook.<br>
-  I wrote a short notebook that shows how you can use D3 with Jupyter Notebook.<br>
+> D3 is a javascript based library for data visualization.
+  This is a powerful tool and it currently does not work too well with Jupyter Notebook.
+  I wrote a short notebook that shows how you can use D3 with Jupyter Notebook.
   
 
 ## Housing:<br>
