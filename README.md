@@ -8,12 +8,12 @@
 
 ## Housing:<br>
   ### A solution to the Kaggle Housing prices challenge.<br>
-  #### Main contributions in this project:<br>
+  #### Main contributions:<br>
   > - I developed an algorithm to impude missing data by considering NANs as prediction problems within themselves.  This algorithm will fill in all the missing data by using the most data possible to predict each NAN.<br>
 
 ## Titanic:<br>
   ### This was my first datascience project, first I implemented a tutorial, then I attempted on  improving on the tutorial.<br>
-  #### Main contributions in this project:<br>
+  #### Main contributions:<br>
   > - I used domain knowledge of the Titanic blueprints to treat room numbers as 3D coordinates on the ship - the numbers
     were well ordered and had a prefix of the deck, this allowed me to get further features such as which the side of the ship
     in which the caben was located.
