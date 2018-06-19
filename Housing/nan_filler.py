@@ -1,3 +1,8 @@
+'''
+This class implements an algorithm to impude NANs in any structural dataset.
+The class currently uses XGboost, but it can be rewritten to use any method needed to fill out data.
+'''
+
 from xgboost import XGBClassifier, XGBRegressor
 from sklearn.metrics import mean_squared_error, cohen_kappa_score
 from sklearn.model_selection import train_test_split
