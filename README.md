@@ -14,7 +14,7 @@
 ## Titanic:<br>
   ### This was my first datascience project, first I implemented a tutorial, then I attempted on  improving on the tutorial.<br>
   #### Main contributions in this project:<br>
-  > - I brought domain knowledge of the Titanic blueprints to treat room numbers as 3D coordinates on the ship - the numbers
+  > - I used domain knowledge of the Titanic blueprints to treat room numbers as 3D coordinates on the ship - the numbers
     were well ordered and had a prefix of the deck, this allowed me to get further features such as which the side of the ship
     in which the caben was located.
 
