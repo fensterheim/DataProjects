@@ -9,6 +9,7 @@
 #### Housing:<br>
   A solution to the Kaggle Housing prices challenge.<br>
   Main contributions in this project:<br>
+  ==================================
   > - I developed an algorithm to impude missing data by considering NANs as prediction problems within themselves.  This algorithm will fill in all the missing data by using the most data possible to predict each NAN.<br>
 
 #### Titanic:<br>
