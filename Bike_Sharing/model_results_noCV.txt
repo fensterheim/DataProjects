@@ -1,0 +1,11 @@
+naiv linear regression RMSE: 1.3181807007241255
+simple random forest RMSE seed 0: 0.32763509950713954
+simple xgboost RMSE seed 0: 0.3840467860604075
+simple random forest RMSE seed 475: 0.3275943818716689
+simple xgboost RMSE seed 475: 0.3840467860604075
+simple random forest RMSE seed 887: 0.3333710826883618
+simple xgboost RMSE seed 887: 0.3840467860604075
+TPOT xgb RMSE: 0.2926877897857523
+TPOT randomf RMSE: 0.37008293392176117
+TPOT xgb cosine RMSE: 0.29970967506863117
+addition of casual and registered model MSE: 0.32942814771441237
